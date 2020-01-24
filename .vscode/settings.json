@@ -1,0 +1,136 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'FuraCode NF Retina', 'Courier New', monospace",
+  "editor.tokenColorCustomizations": {
+    "[Material Theme Darker High Contrast]": {
+      "comments": "#666",
+      "textMateRules": [
+        {
+          "scope": "string.quoted.docstring",
+          "settings": {
+            "foreground": "#5d5d5d"
+          }
+        }
+      ]
+    }
+  },
+  "editor.rulers": [
+    80
+  ],
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 60,
+  "editor.lineHeight": 24,
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.cursorSmoothCaretAnimation": false,
+  "editor.tabCompletion": "on",
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.cshtml": "html"
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "search.exclude": {
+    ".vscode": true
+  },
+  "terminal.integrated.rendererType": "dom",
+  "workbench.activityBar.visible": false,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#5d5d5d",
+    "editorLineNumber.activeForeground": "#999"
+  },
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.iconTheme": "ayu",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "window.titleBarStyle": "custom",
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.linting.flake8Args": [
+    "--max-line-length=120"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "razor": "html",
+    "javascript": "javascriptreact"
+  },
+  "liveSassCompile.settings.includeItems": [
+    "app.sass",
+  ],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": null,
+      "generateMap": false
+    }
+  ],
+  "local-history.path": "${workspaceFolder}/.vscode",
+  "sassFormat.indent": 2,
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.py"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false,
+    },
+    {
+      "text": "CHECK:",
+      "color": "#000",
+      "isWholeLine": false,
+    },
+    {
+      "text": "TODO:",
+      "color": "#fff",
+      "backgroundColor": "#666",
+      "overviewRulerColor": "rgba(77,171,247,0.8)"
+    },
+    {
+      "text": "INFO:",
+      "color": "#000",
+      "backgroundColor": "#81D4FA",
+      "overviewRulerColor": "rgba(77,171,247,0.8)"
+    },
+    {
+      "text": "IMPROVE:",
+      "color": "#fff",
+      "backgroundColor": "#2196F3",
+      "overviewRulerColor": "rgba(77,171,247,0.8)"
+    },
+    {
+      "text": "NOTE:",
+      "color": "#000",
+      "backgroundColor": "#69db7c",
+      "overviewRulerColor": "rgba(105,219,124,0.8)"
+    },
+    {
+      "text": "BUG:",
+      "color": "#fff",
+      "backgroundColor": "#f44336",
+      "overviewRulerColor": "rgba(105,219,124,0.8)"
+    },
+    {
+      "text": "REMOVE:",
+      "color": "#fff",
+      "backgroundColor": "#f44336",
+      "overviewRulerColor": "rgba(105,219,124,0.8)"
+    }
+  ],
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "python.diagnostics.sourceMapsEnabled": false,
+}
