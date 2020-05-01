@@ -48,7 +48,8 @@
   "window.zoomLevel": 0,
   "window.titleBarStyle": "custom",
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
   },
   "python.linting.flake8Args": [
     "--max-line-length=120"
