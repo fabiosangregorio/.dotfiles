@@ -11,3 +11,6 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 # Autocompletion for arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# https://github.com/gluons/powershell-git-aliases
+Import-Module git-aliases -DisableNameChecking
