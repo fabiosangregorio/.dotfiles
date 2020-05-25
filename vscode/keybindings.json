@@ -17,5 +17,17 @@
     "key": "ctrl+shift+k",
     "command": "-editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+z",
+    "command": "extension.pxToremAndRemToPx"
+  },
+  {
+    "key": "alt+z",
+    "command": "-extension.pxToremAndRemToPx"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
   }
 ]
