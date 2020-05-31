@@ -1,3 +1,5 @@
+# Powershell plugins installation
+
 ## Oh my posh
 ```powershell
 Install-Module posh-git -Scope CurrentUser
