@@ -1,145 +1,150 @@
 {
-  "breadcrumbs.enabled": true,
-  "editor.cursorSmoothCaretAnimation": false,
-  "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "'FuraCode NF Retina', 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.lineHeight": 24,
-  "editor.minimap.enabled": true,
-  "editor.minimap.maxColumn": 60,
-  "editor.minimap.renderCharacters": false,
-  "editor.renderControlCharacters": false,
-  "editor.renderWhitespace": "none",
-  "editor.rulers": [
-      120,
-      80
-  ],
-  "editor.tabCompletion": "on",
-  "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-      "[Material Theme Darker High Contrast]": {
-          "comments": "#666",
-          "textMateRules": [
-              {
-                  "scope": "string.quoted.docstring",
-                  "settings": {
-                      "foreground": "#5d5d5d"
-                  }
-              }
-          ]
-      }
-  },
-  "explorer.confirmDragAndDrop": false,
-  "search.exclude": {
-      ".vscode": true
-  },
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "terminal.integrated.rendererType": "dom",
-  "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
-  "workbench.colorCustomizations": {
-      "editorLineNumber.activeForeground": "#999",
-      "editorLineNumber.foreground": "#5d5d5d"
-  },
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
-  "workbench.iconTheme": "ayu",
-  "workbench.startupEditor": "newUntitledFile",
-  
+    "breadcrumbs.enabled": true,
+    "editor.cursorSmoothCaretAnimation": false,
+    "editor.emptySelectionClipboard": true,
+    "editor.fontFamily": "'FuraCode NF Retina', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 24,
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 60,
+    "editor.minimap.renderCharacters": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        120,
+        80
+    ],
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "comments": "#666",
+            "textMateRules": [
+                {
+                    "scope": "string.quoted.docstring",
+                    "settings": {
+                        "foreground": "#5d5d5d"
+                    }
+                }
+            ]
+        }
+    },
+    "explorer.confirmDragAndDrop": false,
+    "search.exclude": {
+        ".vscode": true
+    },
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {
+        "editorLineNumber.activeForeground": "#999",
+        "editorLineNumber.foreground": "#5d5d5d"
+    },
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.iconTheme": "ayu",
+    "workbench.startupEditor": "newUntitledFile",
+    
 
 
-  "files.associations": {
-      "*.cshtml": "html"
-  },
-  "[python]": {
-      "editor.formatOnSave": true,
-      "editor.tabSize": 4
-  },
-  "python.diagnostics.sourceMapsEnabled": false,
-  "python.linting.flake8Args": [
-      "--max-line-length=120"
-  ],
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "sassFormat.indent": 2,
+    "files.associations": {
+        "*.cshtml": "html"
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    "python.diagnostics.sourceMapsEnabled": false,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "sassFormat.indent": 2,
 
 
 
-  "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-      "razor": "html"
-  },
-  "liveSassCompile.settings.formats": [
-      {
-          "extensionName": ".css",
-          "format": "expanded",
-          "generateMap": false,
-          "savePath": null
-      }
-  ],
-  "liveSassCompile.settings.includeItems": [
-      "app.sass"
-  ],
-  "local-history.path": "${workspaceFolder}/.vscode",
-  "todohighlight.include": [
-      "**/*.css",
-      "**/*.html",
-      "**/*.js",
-      "**/*.jsx",
-      "**/*.php",
-      "**/*.py",
-      "**/*.scss",
-      "**/*.ts",
-      "**/*.tsx"
-  ],
-  "todohighlight.keywords": [
-      {
-          "backgroundColor": "#2196F3",
-          "color": "#fff",
-          "overviewRulerColor": "rgba(77,171,247,0.8)",
-          "text": "IMPROVE:"
-      },
-      {
-          "backgroundColor": "#666",
-          "color": "#fff",
-          "overviewRulerColor": "rgba(77,171,247,0.8)",
-          "text": "TODO:"
-      },
-      {
-          "backgroundColor": "#69db7c",
-          "color": "#000",
-          "overviewRulerColor": "rgba(105,219,124,0.8)",
-          "text": "NOTE:"
-      },
-      {
-          "backgroundColor": "#81D4FA",
-          "color": "#000",
-          "overviewRulerColor": "rgba(77,171,247,0.8)",
-          "text": "INFO:"
-      },
-      {
-          "backgroundColor": "#f44336",
-          "color": "#fff",
-          "overviewRulerColor": "rgba(105,219,124,0.8)",
-          "text": "BUG:"
-      },
-      {
-          "backgroundColor": "#f44336",
-          "color": "#fff",
-          "overviewRulerColor": "rgba(105,219,124,0.8)",
-          "text": "REMOVE:"
-      },
-      {
-          "color": "#000",
-          "isWholeLine": false,
-          "text": "CHECK:"
-      },
-      {
-          "color": "#000",
-          "isWholeLine": false,
-          "text": "HACK:"
-      }
-  ]
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "razor": "html"
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "extensionName": ".css",
+            "format": "expanded",
+            "generateMap": false,
+            "savePath": null
+        }
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "app.sass"
+    ],
+    "local-history.path": "${workspaceFolder}/.vscode",
+    "todohighlight.include": [
+        "**/*.css",
+        "**/*.html",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.php",
+        "**/*.py",
+        "**/*.scss",
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#2196F3",
+            "color": "#fff",
+            "overviewRulerColor": "rgba(77,171,247,0.8)",
+            "text": "IMPROVE:"
+        },
+        {
+            "backgroundColor": "#666",
+            "color": "#fff",
+            "overviewRulerColor": "rgba(77,171,247,0.8)",
+            "text": "TODO:"
+        },
+        {
+            "backgroundColor": "#69db7c",
+            "color": "#000",
+            "overviewRulerColor": "rgba(105,219,124,0.8)",
+            "text": "NOTE:"
+        },
+    {
+            "backgroundColor": "#81D4FA",
+            "color": "#000",
+            "overviewRulerColor": "rgba(77,171,247,0.8)",
+            "text": "INFO:"
+        },
+        {
+            "backgroundColor": "#f44336",
+            "color": "#fff",
+            "overviewRulerColor": "rgba(105,219,124,0.8)",
+            "text": "BUG:"
+        },
+        {
+            "backgroundColor": "#f44336",
+            "color": "#fff",
+            "overviewRulerColor": "rgba(105,219,124,0.8)",
+            "text": "REMOVE:"
+        },
+        {
+            "color": "#000",
+            "isWholeLine": false,
+            "text": "CHECK:"
+        },
+        {
+            "color": "#000",
+            "isWholeLine": false,
+            "text": "HACK:"
+        }
+    ],
+    "rewrap.wholeComment": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "python.showStartPage": false
 }
