@@ -1,6 +1,5 @@
 {
     "breadcrumbs.enabled": true,
-    "editor.cursorSmoothCaretAnimation": false,
     "editor.emptySelectionClipboard": true,
     "editor.fontFamily": "'FuraCode NF Retina', 'Courier New', monospace",
     "editor.fontLigatures": true,
@@ -146,5 +145,11 @@
     ],
     "rewrap.wholeComment": false,
     "liveServer.settings.donotShowInfoMsg": true,
-    "python.showStartPage": false
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "matlab-formatter.separateBlocks": false,
+    "python.showStartPage": false,
+    "editor.cursorSurroundingLines": 2,
+    "editor.mouseWheelScrollSensitivity": 3,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true
 }
