@@ -124,3 +124,8 @@
 .notion-dark-theme ::-webkit-scrollbar-thumb:hover {
   background: #696d6f;
 }
+
+/* MIEI */
+.notion-sidebar-container .notion-selectable.notion-collection_view-block {
+  display: none;
+}
