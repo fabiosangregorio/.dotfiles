@@ -1,0 +1,35 @@
+/* Remove arrows on linked databases/pages */
+svg.alias {
+  display: none !important;
+}
+
+/* Wrap everything */
+.notion-collection-item [style*="white-space: nowrap"] {
+  white-space: normal !important;
+}
+.notion-collection-item [style*="align-items: center; height: 20px"] {
+  height: auto !important;
+  align-items: flex-start !important;
+}
+.notion-collection-item [style*="overflow: hidden; width: 100%;"] {
+  overflow: visible !important;
+}
+.notion-collection-item > a {
+  overflow: visible !important;
+  height: auto !important;
+  min-height: 30px;
+}
+
+/* Don't wrap on table rows */
+.notion-table-view .notion-collection-item [style*="white-space: nowrap"] {
+  white-space: nowrap !important;
+}
+
+/* Don't force height on gallery view */
+.notion-gallery-view .notion-collection-item > a {
+  height: 100% !important;
+}
+/* Push everything (other than the title) to the bottom of the card */
+.notion-gallery-view .notion-collection-item > a div[style*="width: 100%; padding: 8px 10px 6px;"] {
+  margin-bottom: auto;
+}
