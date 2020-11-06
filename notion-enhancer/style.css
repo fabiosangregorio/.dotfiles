@@ -10,7 +10,6 @@ svg.alias {
 .notion-page-content .notion-collection_view-block > div {
     overflow-x: auto !important;
 }
-
 /* Hide Scrollbar */
 .notion-frame > .notion-scroller > :first-child::-webkit-scrollbar,
 .notion-page-content .notion-collection_view-block > :first-child::-webkit-scrollbar {
@@ -21,4 +20,15 @@ svg.alias {
 .notion-code-block.line-numbers > div {
   padding-top: 18px !important;
   padding-bottom: 20px !important;
+}
+
+/* ========== BIGGER ICONS IN CALENDAR VIEW ========== */
+.notion-calendar-view .notion-record-icon {
+  width: 16px !important;
+  height: 16px !important;
+  margin-top: 0 !important;
+}
+.notion-calendar-view .notion-record-icon * {
+  width: 100% !important;
+  height: 100% !important;
 }
