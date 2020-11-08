@@ -2,6 +2,10 @@
 svg.alias {
   display: none !important;
 }
+/* Remove in page mentions */
+.notion-page-mention-token [style="width:1em;display:inline-block;vertical-align:-0.15em;margin-right:0.1em"] {
+  width: 2px !important;
+}
 
 /* ========== HORIZONTAL SCROLL FOR DATABASE HEADERS ========== */
 /* Database Pages */
