@@ -1,5 +1,5 @@
 /* ========== REMOVE ARROWS ON LINKED DATABASES/PAGES ========== */
-svg.alias {
+svg.alias, .notion-collection_view-block [style="display: flex; align-items: center; margin-right: 6px;"] {
   display: none !important;
 }
 /* Remove in page mentions */
