@@ -11,8 +11,11 @@ svg.alias, .notion-collection_view-block [style="display: flex; align-items: cen
 
 /* ========== EVEN PADDING ON CODE BLOCKS ========== */
 .notion-code-block.line-numbers > div {
-  padding-top: 18px !important;
-  padding-bottom: 20px !important;
+  padding-top: 43px !important;
+  padding-bottom: 14px !important;
+}
+.notion-code-block:not(.line-numbers) .line-numbers + div + div {
+    top: 13px !important;
 }
 
 /* ========== BIGGER ICONS IN CALENDAR VIEW ========== */
