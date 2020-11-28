@@ -9,13 +9,18 @@ svg.alias, .notion-collection_view-block [style="display: flex; align-items: cen
 
 
 
-/* ========== EVEN PADDING ON CODE BLOCKS ========== */
+/* ========== SHRINK PADDING ON CODE BLOCKS ========== */
 .notion-code-block.line-numbers > div {
-  padding-top: 43px !important;
+  padding-top: 14px !important;
   padding-bottom: 14px !important;
 }
-.notion-code-block:not(.line-numbers) .line-numbers + div + div {
-    top: 13px !important;
+.notion-code-block:not(.line-numbers) .line-numbers + div + div, #code-line-numbers {
+  top: 14px !important;
+}
+
+.notion-code-block.line-numbers + div + div {
+  background: var(--theme--code-background);
+  box-shadow: 5px 2px 8px 4px var(--theme--code-background);
 }
 
 /* ========== BIGGER ICONS IN CALENDAR VIEW ========== */
@@ -27,4 +32,9 @@ svg.alias, .notion-collection_view-block [style="display: flex; align-items: cen
 .notion-calendar-view .notion-record-icon * {
   width: 100% !important;
   height: 100% !important;
+}
+
+/* ========== SCROLL PAST END OF PAGE ========== */
+.notion-page-content {
+  padding-bottom: 80vh !important;
 }
